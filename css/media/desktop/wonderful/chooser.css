@@ -1,0 +1,146 @@
+.chooser {
+  width: 100%;
+  padding-top: 20px;
+
+  .chooser__center {
+    width: 100%;
+    height: 441.5px;
+    background-color: #ef3b50;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-left: 3px solid #ef3b50;
+
+    .mychooser {
+      .chooser__center__items {
+        width: 192px !important;
+        background-color: white;
+        padding: 12px 8px;
+        border-radius: 8px;
+        display: flex;
+        flex-flow: column wrap;
+
+        .chooser__center__items__top {
+          width: 100%;
+          height: fit-content;
+          display: block;
+          text-align: right;
+        }
+        .chooser__center__items__center {
+          width: 100%;
+          height: 165px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          & img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+        .chooser__center__items__bottom {
+          width: 100%;
+          height: 166px;
+
+          .chooser__center__items__bottom__1 {
+            width: 100%;
+            height: fit-content;
+            font-family: var(--font-family);
+            font-size: 12px;
+            line-height: 24px;
+            display: block;
+            text-align: right;
+
+            & strong {
+              font-weight: 700;
+            }
+          }
+          .chooser__center__items__bottom__2 {
+            width: 100%;
+            height: fit-content;
+            padding-top: 3px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            column-gap: 5px;
+            font-family: var(--font-family);
+            font-size: 11px;
+            color: order-box color rgb(98, 102, 109);
+          }
+          .chooser__center__items__bottom__3 {
+            width: 100%;
+            height: fit-content;
+            padding-top: 16px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+
+            .chooser__center__items__bottom__3__right {
+              width: 34px;
+              height: 20px;
+              background-color: rgb(211, 47, 47);
+              color: whitesmoke;
+              font-family: var(--font-family-number);
+              border-radius: 16px;
+              font-size: 14px;
+              font-weight: 700;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .chooser__center__items__bottom__3__left {
+              width: 70%;
+              height: fit-content;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: flex-end;
+              column-gap: 3px;
+              font-family: var(--font-family-number);
+              font-size: 18px;
+              font-weight: 700;
+            }
+          }
+          .chooser__center__items__bottom__4 {
+            width: 100%;
+            height: fit-content;
+            font-family: var(--font-family-number);
+            font-size: 14px;
+            color: rgb(192, 194, 197);
+            text-decoration: line-through;
+            display: block;
+            text-align: left;
+            padding-left: 18px;
+            padding-top: 4px;
+          }
+          .chooser__center__items__bottom__5 {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding-top: 6px;
+            font-family: var(--font-family-number);
+            font-size: 14px;
+            color: rgb(239, 57, 78);
+            font-weight: 700;
+          }
+        }
+      }
+      .chooser__center__items__1 {
+        width: 209px !important;
+        background-color: #ef3b50;
+        padding: 0px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+
+        & img {
+          width: 145px;
+          height: 145px;
+        }
+      }
+    }
+  }
+}

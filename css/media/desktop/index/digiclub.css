@@ -1,0 +1,88 @@
+.digiclub {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 24px;
+
+  .digiclub__center {
+    width: 87%;
+    height: 88px;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 16px;
+
+    background-image: url(../../images/digiclub/background.png);
+    background-image: linear-gradient(
+      to left,
+      rgba(0, 114, 149, 1),
+      rgba(53, 166, 200, 0.7)
+    );
+
+    .digiclub__center__right {
+      width: 30%;
+      height: inherit;
+
+      padding-right: 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    .digiclub__center__left {
+      width: 70%;
+      height: inherit;
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-end;
+      padding-left: 16px;
+      column-gap: 4px;
+
+      & div {
+        width: 274px;
+        height: 63px;
+        background-color: white;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        & img {
+          width: 168px;
+          height: 75px;
+          object-fit: cover;
+          object-position: bottom;
+        }
+        & h5 {
+          width: 106px;
+
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          column-gap: 10px;
+          font-family: var(--font-family);
+          font-size: 12px;
+          justify-content: flex-end;
+          padding-bottom: 8px;
+        }
+      }
+      .digiclub__center__left__1 {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .digiclub__center__left__3 {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        & img {
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+        }
+        & h5 {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}

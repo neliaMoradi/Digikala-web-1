@@ -1,0 +1,25 @@
+.two__image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+
+  .two__image__center {
+    width: 87%;
+    height: 265px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .two__image__center__images {
+      width: 656px;
+      height: 100%;
+
+      & img {
+        width: inherit;
+        height: inherit;
+        border-radius: 16px;
+      }
+    }
+  }
+}

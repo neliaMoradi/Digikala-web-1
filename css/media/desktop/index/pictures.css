@@ -1,0 +1,25 @@
+.pictures {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  .pictures__center {
+    width: 87%;
+    height: 241px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    & div {
+      width: 322px;
+      height: inherit;
+      & a {
+        & img {
+          width: 320px;
+          height: inherit;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+}

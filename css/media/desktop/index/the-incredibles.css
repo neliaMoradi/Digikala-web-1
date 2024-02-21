@@ -1,0 +1,145 @@
+.the__incredibles {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .incredible__center {
+    width: 87%;
+    height: inherit;
+    background-color: #ef3c51;
+    border-radius: 20px;
+    padding: 20px 0;
+    border-left: 2px solid #ef3c51;
+
+    .first__incredible {
+      background-color: #ef3c51;
+
+      & div {
+        width: 100%;
+        height: 100%;
+        padding-top: 14px;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 6px;
+        & svg {
+          width: 92px;
+          height: 77px;
+        }
+
+        & img {
+          width: 115px;
+          height: 115px;
+        }
+        & a {
+          all: unset;
+          font-size: 14px;
+          color: white;
+          font-family: var(--font-family);
+          font-weight: bold;
+          display: flex;
+          flex-flow: row wrap;
+        }
+      }
+    }
+    .second-slide {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .slides__incredibles {
+      width: 100%;
+      height: auto;
+
+      .items {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 14px;
+
+        .top {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          height: auto;
+
+          & img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+        .center {
+          font-family: var(--font-family-number);
+          height: auto;
+
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          padding: 10px;
+          & span {
+            width: 34px;
+            font-size: 14px;
+            background-color: #d32f2f;
+            border-radius: 10px;
+            color: whitesmoke;
+            font-weight: bold;
+          }
+          & h5 {
+            font-size: 20px;
+          }
+        }
+        .bottom {
+          width: 100%;
+
+          font-family: var(--font-family-number);
+          height: auto;
+          display: block;
+          text-align: left;
+          padding-left: 30px;
+          font-size: 16px;
+          opacity: 0.7;
+          text-decoration: line-through;
+        }
+      }
+    }
+    .last-slide {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      & div {
+        height: 100%;
+        width: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 14px;
+
+        .svg {
+          display: block;
+          height: auto;
+
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #19bfd3;
+        }
+        & a {
+          all: unset;
+          width: 100%;
+          color: black;
+          height: auto;
+          display: block;
+          font-family: var(--font-family-number);
+          font-weight: bold;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
