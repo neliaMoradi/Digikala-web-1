@@ -10,7 +10,7 @@
     display: flex;
     flex-flow: row wrap;
     border-radius: 15px;
-    background-image: url(../images/svg/background-markets-3.svg),
+    background-image: url(../../../../images/svg/background-markets-3.svg),
       linear-gradient(to left, #f4e0e4, #f4f0f1);
     background-position: left center;
     background-repeat: no-repeat !important;

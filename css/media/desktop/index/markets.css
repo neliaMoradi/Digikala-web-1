@@ -9,7 +9,7 @@
     display: flex;
     flex-flow: row wrap;
     border-radius: 15px;
-    background-image: url(../../images/svg/background-markets.svg);
+    background-image: url(../../../../images/svg/background-markets.svg);
     background-position: left center;
     background-repeat: no-repeat !important;
     background-color: #edefed;

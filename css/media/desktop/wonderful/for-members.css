@@ -7,9 +7,9 @@
   .for__members__center {
     width: 98%;
     height: 110px;
-    background: url(../images/svg/background-for-members-1.svg) right center
+    background: url(../../../../images/svg/background-for-members-1.svg) right center
         no-repeat,
-      url(../images/svg/background-for-members-2.svg) left center no-repeat;
+      url(../../../../images/svg/background-for-members-2.svg) left center no-repeat;
     background-color: #ede8ec;
     border-radius: 16px;
     display: flex;

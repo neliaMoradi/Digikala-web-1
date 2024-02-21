@@ -7,7 +7,7 @@
   .suggestion__slider__center {
     width: 98%;
     height: 344px;
-    background-image: url(../images/svg/background-suggestion-slider.svg),
+    background-image: url(../../../../images/svg/background-suggestion-slider.svg),
       linear-gradient(180deg, #e6123d, #c60c31);
     background-repeat: repeat-x;
     border-radius: 8px;
